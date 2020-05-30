@@ -23,17 +23,14 @@ body {
     text-decoration: underline;
   }
   
-  del,
-  ins {
-    text-decoration: none;
-  }
-  
   del {
     color: #ff4400;
+    text-decoration: none;
   }
   
   ins {
     color: rgb(105, 178, 83);
+    text-decoration: none;
   }
   
   pre,
@@ -135,14 +132,13 @@ body {
     margin-top: 30px;
   }
   
-  em {
-    font-style: normal;
+  .underline {
+    text-decoration: underline;
+  }
+  .line-through {
+    text-decoration:line-through;
   }
   
-  i {
-    font-style: normal;
-    
-  }
-  .italic {
-    font-style: italic;
+  .overline {
+    text-decoration: overline;
   }
