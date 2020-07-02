@@ -1,0 +1,1 @@
+document.querySelector('.page').classList.remove('light-theme');
