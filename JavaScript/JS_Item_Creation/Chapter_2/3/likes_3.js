@@ -1,0 +1,9 @@
+let heart = document.querySelector('.heart');
+let likesNumber = document.querySelector('.likes-number');
+let counter = 0;
+
+heart.onclick = function () {
+  counter++;
+  likesNumber.textContent = counter;
+  heart.classList.toggle('added');
+};
